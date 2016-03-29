@@ -1,0 +1,3 @@
+subset([],[]).
+subset([A|T],[A|Rest]) :-
+	subset(T,T2).
